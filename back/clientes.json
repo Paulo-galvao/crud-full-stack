@@ -1,0 +1,29 @@
+{
+  "clientes": [
+    {
+      "name": "José",
+      "idade": "41",
+      "id": "8a5a"
+    },
+    {
+      "name": "Jonas",
+      "idade": 33,
+      "id": "2827"
+    },
+    {
+      "id": "a383",
+      "name": "paulo",
+      "idade": "29"
+    },
+    {
+      "id": "5905",
+      "name": "ananias",
+      "idade": "23"
+    },
+    {
+      "name": "lucio fernadno",
+      "idade": "666",
+      "id": "4e36"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<form action="/editar" method="post">
+    <img width="150px" src="../images/profile.png" alt="">
+    <input 
+        name="id" 
+        type="text" 
+        value={{dados.id}} 
+        class="form-control" 
+        readonly
+    >
+    <input 
+        name="name" 
+        type="text" 
+        value={{dados.name}} 
+        class="form-control" 
+        placeholder="Insira seu nome aqui"
+    >
+    <input 
+        name="idade" 
+        type="text" 
+        value={{dados.idade}} 
+        class="form-control" 
+        placeholder="Insira sua idade aqui"
+    >
+    <button class="btn btn-warning" type="submit">Editar</button>
+    <a href="/remover/{{dados.id}}" class="btn btn-danger">Remover</a>
+    <a href="/" class="btn btn-secondary">Cancelar</a>
+</form>

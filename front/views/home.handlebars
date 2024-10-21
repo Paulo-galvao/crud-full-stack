@@ -1,0 +1,26 @@
+<form action="./cadastrar" method="post">
+    <img width="150px" src="images/profile.png" alt="">
+    <input name="name" class="form-control" type="text" placeholder="Insira seu nome aqui">
+    <input name="idade" class="form-control" type="text" placeholder="Insira sua idade aqui">
+    <button class="btn btn-primary" type="submit">Enviar</button>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Selecionar</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each dados}}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{idade}}</td>
+            <td><a href="selecionar/{{id}}">Selecionar</a></td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
